@@ -29,7 +29,7 @@ export default function HeroSection() {
       </div>
   
       {/* Image box */}
-     <Image src='/Images/jeyran.gif' width={452} height={509} className='hero-shadow invisible lg:visible' alt='A programmer girl working on her computer'/>
+     <Image src='/Images/jeyran.gif' width={452} height={509} className='hero-shadow hidden lg:block' alt='A programmer girl working on her computer'/>
     </section>
   )
 }

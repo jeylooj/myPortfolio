@@ -18,7 +18,8 @@ module.exports = {
       lightPink: '#FF91E8',
       lightYellow: '#F7CB45',
       body: '#FFDCAA',
-      lightBrown: '#E3B74A'
+      lightBrown: '#E3B74A',
+      pink : '#E547C2',
     },
     extend: {
       backgroundImage: {
