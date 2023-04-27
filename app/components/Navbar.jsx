@@ -6,7 +6,7 @@ import { useState } from 'react';
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div className='px-36 py-4'>
+    <div className='px-36 py-4 mb-12'>
       <nav className="w-full fixed top-0 left-0 right-0 z-20">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 items-center">
           <div>
@@ -40,7 +40,7 @@ function NavBar() {
                 navbar ? 'p-12 md:p-0 block' : 'hidden'
               }`}
             >
-              <ul className="h-screen md:h-auto items-center justify-center md:flex text-2xl gap-8 ">
+              <ul className="h-screen md:h-auto items-center justify-center md:flex text-2xl gap-4">
                 <li className="pb-6 py-2 md:px-6 border-b-2 md:border-b-0 lg:hover:underline">
                   <Link href="#techStack" onClick={() => setNavbar(!navbar)}>
                     Techstack
