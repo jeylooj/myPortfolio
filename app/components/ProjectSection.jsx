@@ -17,8 +17,8 @@ export default function ProjectSection() {
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]'/>
+          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
         </div>
       </section>
       {/* Fit Up */}
@@ -32,8 +32,8 @@ export default function ProjectSection() {
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]'/>
+          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
         </div>
       </section>
       {/* Weather app */}
@@ -47,8 +47,8 @@ export default function ProjectSection() {
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]'/>
+          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
         </div>
       </section>
     </section>
