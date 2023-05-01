@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function ProjectSection() {
   return (
-    <section className='py-16 flex flex-col gap-y-[160px] items-center justify-center lg:px-[148px] px-8 lg:py-[110px]'>
+    <section className='py-16 flex flex-col gap-y-[160px] items-center justify-center lg:px-[148px] px-8 lg:py-[110px]' id='projects'>
       <h2 className='bebas-font text-center lg:text-7xl text-5xl'>
         My Projects
         </h2>

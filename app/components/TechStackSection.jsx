@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TechStackSection() {
   return (
-    <section className='py-16 flex flex-col gap-y-[110px]'>
+    <section className='py-16 flex flex-col gap-y-[110px]' id='techStack' >
       <h2 className='bebas-font text-center lg:text-7xl text-5xl'>My Tech Stacks</h2>
       {/* Cards */}
       <div className='flex flex-col items-center justify-center lg:flex-row lg:px-[148px] gap-[77px]'>

@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function AboutMe() {
   return (
-    <div className='w-full lg:w-1/2 flex flex-col bg-lightPink border-2 rounded-[20px] about-shadow px-4'>
+    <div className='w-full lg:w-1/2 flex flex-col bg-lightPink border-2 rounded-[20px] about-shadow px-4' id='about'>
       <div className='flex flex-col md:flex-row items-center gap-4 bg-lightPink rounded-t-[20px] py-2'>
         <Image src='/Images/Jeyran.png' width={160} height={160} alt='Jeyran Jaberi' className='border-blue border-4 rounded-[50%]'/>
         <h3 className='bebas-font text-[56px] bg-lightPink'>Front-End, <br /> React Developer </h3>
