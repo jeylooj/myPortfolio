@@ -5,6 +5,7 @@ import TechStackSection from './components/TechStackSection'
 import ProjectSection from './components/ProjectSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import { motion } from "framer-motion"
 
 export default function Home() {
   return (

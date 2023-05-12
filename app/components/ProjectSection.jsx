@@ -11,44 +11,45 @@ export default function ProjectSection() {
         {/* Info box */}
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
           <h3 className='bebas-font text-[40px]'>Personal Portfolio</h3>
-          <h4 className='bebas-font text-[28px]'>Techstack</h4>
+          <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
-          <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="#"></a>VIEW WEBSITE</button>
+          <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'>
+            <a href="www.jeylooj.com" className='bg-lightYellow'>VIEW WEBSITE</a></button>
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/portfolio.png' width={500} height={382} className='rounded-[20px] image-border' alt='project sample'/>
+          <Image src='/Images/portfolio-mobile.png' width={143} height={282} className='rounded-[20px] mobile-border' alt='project sample'/>
         </div>
       </section>
-      {/* Fit Up */}
+      {/* FITUP app */}
       <section className='flex flex-col lg:flex-row-reverse items-start gap-4'>
         {/* Info box */}
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
-          <h3 className='bebas-font text-[40px]'>Personal Portfolio</h3>
-          <h4 className='bebas-font text-[28px]'>Techstack</h4>
+          <h3 className='bebas-font text-[40px]'>FITUP</h3>
+          <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS - SASS</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
-          <button className='bg-green button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="#"></a>VIEW WEBSITE</button>
+          <button className='bg-green button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://fitup-wseh.vercel.app/" className='bg-green'>VIEW WEBSITE</a></button>
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/fitup.png' width={500} height={382} className='rounded-[20px] image-border bg-[#D86451]' alt='project sample'/>
+          <Image src='/Images/fitup-mobile.jpeg' width={143} height={282} className='rounded-[20px] mobile-border bg-[#D86451]' alt='project sample'/>
         </div>
       </section>
-      {/* Weather app */}
+      {/* SUSHI BAR*/}
       <section className='flex flex-col lg:flex-row items-start gap-4'>
         {/* Info box */}
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
-          <h3 className='bebas-font text-[40px]'>Personal Portfolio</h3>
-          <h4 className='bebas-font text-[28px]'>Techstack</h4>
+          <h3 className='bebas-font text-[40px]'>Sushi Bar</h3>
+          <h4 className='bebas-font text-[20px]'>Techstack: Javascript - html - css</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
-          <button className='bg-pink button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="#"></a>VIEW WEBSITE</button>
+          <button className='bg-pink button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://sushi-bar.vercel.app/" className='bg-pink'>VIEW WEBSITE</a></button>
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
-          <Image src='/Images/web.png' width={500} height={382} className='rounded-[20px]' alt='project sample'/>
-          <Image src='/Images/mobile.png' width={143} height={282} className='rounded-[20px]' alt='project sample'/>
+          <Image src='/Images/sushi.png' width={500} height={382} className='rounded-[20px] image-border bg-[#FFF2EA]' alt='project sample'/>
+          <Image src='/Images/sushi-mobile.jpeg' width={143} height={282} className='rounded-[20px] mobile-border bg-[#FFF2EA]' alt='project sample'/>
         </div>
       </section>
     </section>

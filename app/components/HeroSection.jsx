@@ -1,14 +1,21 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
+import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
 export default function HeroSection() {
+  const [text,count] = useTypewriter({
+    words: ['Front-End','React','Web'],
+    loop: true,
+    delaySpeed:2000,
+  })
   return (
     <section className='flex-col flex lg:flex-row items-center px-36 h-screen justify-between'>
       {/* Text Box */}
       <div className='flex flex-col gap-4'>
       <span className='text-[23px]'>“Hi, my name is Jeyran</span>
-      <h1 className='bebas-font text-7xl'>
-      Front-End,<br/>
-      React Developer 
+      <h1 className='bebas-font text-7xl animated'>
+      {text} <Cursor cursorColor='#333' cursorBlinking='false'/> <br/>
+       Developer 
       </h1>
       <p className='w-full lg:w-[450px] text-[23px]'>Based in Poland, with a passion for designing beautiful and responsive user interfaces."</p>
            {/* Buttons */}
@@ -29,7 +36,7 @@ export default function HeroSection() {
       </div>
   
       {/* Image box */}
-     <Image src='/Images/jeyran.gif' width={452} height={509} className='hero-shadow hidden lg:block' alt='A programmer girl working on her computer'/>
+     <Image src='/Images/jeyran.gif' width={452} height={509} className='hero-shadow invisible lg:visible' alt='A programmer girl working on her computer'/>
     </section>
   )
 }
