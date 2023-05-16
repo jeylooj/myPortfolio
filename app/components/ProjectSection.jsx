@@ -24,7 +24,7 @@ export default function ProjectSection() {
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
           <Image src='/Images/portfolio.png' width={500} height={382} className='rounded-[20px] image-border' alt='project sample'/>
-          <Image src='/Images/portfolio-mobile.png' width={143} height={282} className='rounded-[19px] mobile-border' alt='project sample'/>
+          <Image src='/Images/portfolio-mobile.PNG' width={143} height={282} className='rounded-[19px] mobile-border' alt='project sample'/>
         </div>
       </section>
       {/* FITUP app */}
