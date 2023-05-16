@@ -14,16 +14,16 @@ export default function AboutMe() {
       {/* Socials */}
       <div className='flex gap-3 py-4 bg-lightPink rounded-b-[20px] items-center'>
         <a href="https://instagram.com/jeylooj?igshid=NTc4MTIwNjQ2YQ==">
-        <Image src='/Images/instagram.png' width={38} height={38} className='bg-lightPink' alt='instagram logo'/>
+        <Image src='/SVGs/insta.svg' width={38} height={38} className='bg-lightPink' alt='instagram logo'/>
         </a>
 
         <a href="https://www.linkedin.com/in/jeyran-jaberi-902166164/">
-        <Image src='/Images/linkedin.png' width={38} height={38}
+        <Image src='/SVGs/linkdin.svg' width={38} height={38}
         className='bg-lightPink' alt='linkedin logo'/>
         </a>
   
         <a href="https://github.com/jeylooj">
-        <Image src='/Images/github.png' width={38} height={38}
+        <Image src='/SVGs/github.svg' width={38} height={38}
         className='bg-lightPink' alt='github logo'/>
         </a>
        

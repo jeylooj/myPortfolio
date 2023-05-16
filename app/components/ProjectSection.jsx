@@ -12,7 +12,7 @@ export default function ProjectSection() {
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
           <h3 className='bebas-font text-[40px]'>Personal Portfolio</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS</h4>
-          <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <p className='text-2xl font-thin'>My portfolio website showcases my work, skills, and achievements, leaving a lasting impression and attracting opportunities.</p>
           <div className='flex justify-between'>
           <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'>
             <a href="www.jeylooj.com" className='bg-lightYellow'>VIEW WEBSITE</a></button>
@@ -33,7 +33,7 @@ export default function ProjectSection() {
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
           <h3 className='bebas-font text-[40px]'>FITUP</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS - SASS</h4>
-          <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <p className='text-2xl font-thin'>Fitup is a vibrant fitness club website that offers a complete package for individuals looking to enhance their fitness journey.</p>
           <div className='flex justify-between'> 
           <button className='bg-green button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://fitup-wseh.vercel.app/" className='bg-green'>VIEW WEBSITE</a></button>
           <button className='bg-yellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://github.com/jeylooj/fitup.git" className='bg-yellow'>VIEW CODE</a></button>
@@ -51,7 +51,7 @@ export default function ProjectSection() {
         <div className='w-full md:w-1/3 flex flex-col gap-4'>
           <h3 className='bebas-font text-[40px]'>Sushi Bar</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: Javascript - html - css</h4>
-          <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <p className='text-2xl font-thin'>The Sushi website entices sushi lovers with its exquisite menu of fresh, handcrafted rolls and authentic Japanese flavors.</p>
           <div className='flex justify-between'>
           <button className='bg-pink button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://sushi-bar.vercel.app/" className='bg-pink'>VIEW WEBSITE</a></button>
           <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://github.com/jeylooj/sushiBar.git" className='bg-lightYellow'>VIEW CODE</a></button>
