@@ -13,8 +13,13 @@ export default function ProjectSection() {
           <h3 className='bebas-font text-[40px]'>Personal Portfolio</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <div className='flex justify-between'>
           <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'>
             <a href="www.jeylooj.com" className='bg-lightYellow'>VIEW WEBSITE</a></button>
+          <button className='bg-blue button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'>
+            <a href="https://github.com/jeylooj/myPortfolio.git" className='bg-blue'>VIEW CODE</a></button>
+          </div>
+       
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
@@ -29,7 +34,10 @@ export default function ProjectSection() {
           <h3 className='bebas-font text-[40px]'>FITUP</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: NextJs - ReactJs - TailwindCSS - SASS</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <div className='flex justify-between'> 
           <button className='bg-green button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://fitup-wseh.vercel.app/" className='bg-green'>VIEW WEBSITE</a></button>
+          <button className='bg-yellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://github.com/jeylooj/fitup.git" className='bg-yellow'>VIEW CODE</a></button>
+          </div>
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
@@ -44,7 +52,10 @@ export default function ProjectSection() {
           <h3 className='bebas-font text-[40px]'>Sushi Bar</h3>
           <h4 className='bebas-font text-[20px]'>Techstack: Javascript - html - css</h4>
           <p className='text-2xl font-thin'>Posuere diam elit phasellus integer nisi quam tristique consequat. Vitae pellentesque egestas ultrices ultrices nisi neque libero viverra.</p>
+          <div className='flex justify-between'>
           <button className='bg-pink button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://sushi-bar.vercel.app/" className='bg-pink'>VIEW WEBSITE</a></button>
+          <button className='bg-lightYellow button-shadow border-2 rounded w-[146px] h-[50px] text-base mt-10'><a href="https://github.com/jeylooj/sushiBar.git" className='bg-lightYellow'>VIEW CODE</a></button>
+          </div>
         </div>
         {/* Images box */}
         <div className='flex flex-col-reverse lg:flex-row gap-[38px] w-full md:w-2/3 items-center'>
